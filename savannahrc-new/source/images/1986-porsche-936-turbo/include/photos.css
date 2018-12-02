@@ -1,0 +1,17 @@
+#divWGContent {width:822px;}
+body{background-color:#eee;}
+#divWG {text-align:center; font: 11px Verdana, Arial, Helvetica, sans-serif;}
+#divWG img, #divWG table {border:none;}
+#divWG a:link, #divWG a:visited {text-decoration:none;}
+#divWG a:hover {color:red;text-decoration:underline;}
+#divWGContent {text-align:center; margin: 0 auto;}
+#divNav {float:left; text-align:left; margin-top:10px;}
+#divButtons {float:right; text-align: right; margin-top:5px; margin-bottom:5px;}
+#currentImageLocation {font-weight:bold;}
+#divButtons img {margin:0 3px;}
+#divButtons img#imgUp {margin-right:14px;}
+#imgNext {margin-right:0;}
+#divMainImg {clear:both; margin: 0 auto;}
+#divWG #mainImg {border: 1px solid; border-color: #aaa #666 #666 #aaa;
+ padding:10px; background-color:#fff;}
+#divLinkHiRes {margin-top:6px; text-align:left;}
