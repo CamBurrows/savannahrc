@@ -1,5 +1,9 @@
 .hero-container {
   width: 100%;
   display: block;
-  background-image: site_image_url('hero-collection.jpg');
+  background-image: url('../images/site_assets/hero-collection.jpg');
+  background-size: cover;
+  background-position: center -100px;
+  height: 100vh;
+  background-repeat: no-repeat;
 }

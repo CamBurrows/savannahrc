@@ -37,7 +37,7 @@ set :images_dir, 'images'
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-
+# set :encoding, "ISO-8859-1"
 
 helpers do
   def site_image_url(image)
@@ -60,3 +60,5 @@ end
 # end
 
 set :relative_links, true
+
+Haml::TempleEngine.disable_option_validator!
