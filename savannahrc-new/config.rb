@@ -37,11 +37,19 @@ set :images_dir, 'images'
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+
+
+helpers do
+  def site_image_url(image)
+    "/images/site_assets/#{image}"
+  end
+  def vehicle_images(vehicle_name)
+    "images/#{vehicle_name}/photos"
+  end
+  def vehicle_thumbs(vehicle_name)
+    "images/#{vehicle_name}/thumbs"
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
