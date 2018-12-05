@@ -1,14 +1,15 @@
-@import 'fonts';
-@import 'index';
 @import 'variables';
 @import 'mixins';
+@import 'fonts';
+@import 'index';
+@import 'navbar';
 * {
   box-sizing: border-box;
 }
 body {
   background-color: #ffffff;
   color: #000;
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: "intro-l", "Helvetica", sans-serif;
   margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;

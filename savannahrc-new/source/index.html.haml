@@ -1,3 +1,10 @@
 .wrap
   .hero-container
     .down-arrow
+  .collection-container
+    %h1
+      Collection
+    .vehicle-list-container
+      - data.vehicles.vehicles.each do |vehicle|
+        .vehicle-list-item{id:"#{vehicle.indexx}"}
+          =image_tag("#{vehicle.photopath}/cutout/cutout.png", class:'vehicle-list-cutout')

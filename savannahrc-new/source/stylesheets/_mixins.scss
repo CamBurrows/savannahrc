@@ -7,3 +7,8 @@
 @mixin intro-l {
   font-family: 'intro-l';
 }
+@mixin transition {
+  transition: .2s all ease-in-out;
+  -webkit-transition: .2s all ease-in-out;
+  -moz-transition: .2s all ease-in-out;
+}

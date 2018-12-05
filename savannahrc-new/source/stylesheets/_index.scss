@@ -3,7 +3,50 @@
   display: block;
   background-image: url('../images/site_assets/hero-collection.jpg');
   background-size: cover;
-  background-position: center -100px;
+  background-position: center -30px;
   height: 100vh;
   background-repeat: no-repeat;
+}
+.down-arrow {
+  width: 70px;
+  height: 70px;
+  background-image: image-url('site_assets/down-arrow.png');
+  background-size: 40%;
+  border: 6px solid $red;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 60px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  &:hover {
+    cursor: pointer;
+    -webkit-animation: shake-vertical 4s ease infinite both;
+	  animation: shake-vertical 4s ease infinite both;
+  }
+}
+.collection-container {
+  width: 100%;
+  padding: 20px 10%;
+}
+h1 {
+  font-family: 'longhaul';
+  text-transform: uppercase;
+  color: $black;
+  font-size: 80px;
+  display: block;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.vehicle-list-container {
+  padding-top: 20px;
+  width: 100%;
+  display: block;
+}
+.vehicle-list-cutout {
+  width: 400px;
+  height: auto;
 }
