@@ -59,6 +59,8 @@ end
 #   activate :minify_javascript
 # end
 
+activate :directory_indexes
+
 set :relative_links, true
 
 Haml::TempleEngine.disable_option_validator!

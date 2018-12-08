@@ -2,7 +2,7 @@
   position: absolute;
   width: 100%;
   .src-logo {
-    width: 30%;
+    width: 20%;
     height: auto;
     position: absolute;
     right: 0px;
@@ -55,6 +55,68 @@
           -moz-transform: translateX(-50%) translateY(-50%) scale(1);
           transform: translateX(-50%) translateY(-50%) scale(1);
         }
+      }
+    }
+  }
+}
+.nav-container {
+  display: block;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  .src-logo {
+    height: 30px;
+    width: auto;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+  .nav-items {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    a {
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    @include longhaul;
+    font-size: 20px;
+    }
+    .collection-nav-link {
+      text-transform: uppercase;
+      color: $black;
+      &::before {
+        content:'';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: image-url('site_assets/left-arrow.png');
+        border-radius: 50%;
+        background-color: $black;
+        margin-right: 10px;
+        text-transform: uppercase;
+        @include transition;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        
+      }
+    }
+    .about-nav-link {
+      z-index: 3;
+      color: $white;
+      &::after {
+        content:'';
+        position: absolute;
+        background-color: $red;
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        z-index: -1;
+        left: -20px;
+        border-radius: 50%;
+        top: -110px;
       }
     }
   }

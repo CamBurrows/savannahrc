@@ -1,7 +1,7 @@
 .hero-container {
   width: 100%;
   display: block;
-  background-image: url('../images/site_assets/hero-collection.jpg');
+  background-image: image-url('site_assets/hero-collection-bottom-faded.jpg');
   background-size: cover;
   background-position: center -30px;
   height: 100vh;
@@ -30,7 +30,7 @@
 }
 .collection-container {
   width: 100%;
-  padding: 20px 10%;
+  padding: 20px 15%;
 }
 h1 {
   font-family: 'longhaul';
@@ -46,7 +46,132 @@ h1 {
   width: 100%;
   display: block;
 }
+.vehicle-list-item {
+  width: 100%;
+  height: 260px;
+  margin-bottom: 30px;
+  padding: 15px;
+  position: relative;
+  display: block;
+  transition: .2s all ease-in-out;
+  overflow: hidden;
+  border-radius: 8px;
+  &:hover {
+    text-decoration: none;
+    transform: translateY(2px);
+    box-shadow: 5px 5px 10px rgba(35,31,32,0.1), -5px 0 10px rgba(35,31,32,0.1);
+    .year-make-model-vlp > span {
+      color: rgb(213, 19, 19);
+    }
+  }
+}
 .vehicle-list-cutout {
   width: 400px;
   height: auto;
+  position: absolute;
+  z-index: 10;
+}
+.year-make-model-vlp {
+  font-size: 42px;
+  color: $black;
+  text-align: right;
+  line-height: 44px;
+  margin-right: 5%;
+  margin-left: 50%;
+  width: 45%;
+  @include intro-l;
+  span {
+    @include transition;
+    @include intro;
+  }
+}
+.line {
+  height: 2px;
+  background-color: $black;
+  width: 95%;
+  margin-left: 5%;
+}
+.logo-container {
+  text-align: right;
+  padding-right: 5%;
+  display: block;
+  .logo {
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    float: right;
+    margin-top: 6px;
+    margin-left: 6px;
+  }
+  .Dodge {
+    background-image: image-url('site_assets/vehicle_logos/dodge.png')
+  }
+  .Chevrolet {
+    background-image: image-url('site_assets/vehicle_logos/chevy.png');
+    width: 100px;
+    height: 60px;
+  }
+  .Porsche {
+    background-image: image-url('site_assets/vehicle_logos/porsche.png')
+  }
+  .Ferrari {
+    background-image: image-url('site_assets/vehicle_logos/ferrari.png')
+  }
+  .SS {
+    background-image: image-url('site_assets/vehicle_logos/ss.png')
+  }
+  .Pro-Street {
+    background-image: image-url('site_assets/vehicle_logos/zl1.png')
+  }
+  .ZR1 {
+    background-image: image-url('site_assets/vehicle_logos/zr1.png')
+  }
+  .Demon {
+    background-image: image-url('site_assets/vehicle_logos/demon.png')
+  }
+  .Z28 {
+    background-image: image-url('site_assets/vehicle_logos/z28.jpg')
+  }
+  .Corvette {
+    background-image: image-url('site_assets/vehicle_logos/corvette.png')
+  }
+  .Nova {
+    background-image: image-url('site_assets/vehicle_logos/nova.png');
+    width: 100px;
+    height: 60px;
+  }
+}
+.archive-cta {
+  @include longhaul;
+  color: $black;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  @include transition;
+  text-transform: uppercase;
+  &::after {
+    content:'';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: image-url('site_assets/right-arrow.png');
+    border-radius: 50%;
+    background-color: $black;
+    margin-left: 16px;
+    text-transform: uppercase;
+    @include transition;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+  }
+  &:hover {
+    color: $red;
+    text-decoration: none;
+    &::after {
+      background-color: $red;
+    }
+  }
 }
