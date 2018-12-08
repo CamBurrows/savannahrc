@@ -25,19 +25,14 @@ set :images_dir, 'images'
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 
-# proxy(
-#   '/this-page-has-no-template.html',
-#   '/template-file.html',
-#   locals: {
-#     which_fake_page: 'Rendering a fake page with a local variable'
-#   },
-# )
 
+data.vehicles.vehicles.each do |vehicle|
+  proxy "/#{vehicle.photopath}","/vehicle-detail.html", :locals => {:year => vehicle.year, :make => vehicle.make, :model => vehicle.model, :current => vehicle.current, :description => vehicle.description, :engine => vehicle.engine, :transmission => vehicle.transmission, :exterior => vehicle.exterior, :interior => vehicle.interior, :body => vehicle.body, :rear_end_gear => vehicle.rear_end_gear, :vin => vehicle.vin, :photopath => vehicle.photopath}, :layout => "detail-page", :ignore => true
+end
 # Helpers
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# set :encoding, "ISO-8859-1"
 
 helpers do
   def site_image_url(image)

@@ -68,8 +68,8 @@
     height: 30px;
     width: auto;
     position: absolute;
-    left: 8px;
-    top: 8px;
+    left: 16px;
+    top: 16px;
   }
   .nav-items {
     position: absolute;
@@ -81,11 +81,12 @@
     text-decoration: none;
     letter-spacing: .5px;
     @include longhaul;
-    font-size: 20px;
+    font-size: 22px;
     }
     .collection-nav-link {
       text-transform: uppercase;
       color: $black;
+      @include transition;
       &::before {
         content:'';
         display: inline-block;
@@ -95,12 +96,19 @@
         border-radius: 50%;
         background-color: $black;
         margin-right: 10px;
+        top: 2px;
         text-transform: uppercase;
         @include transition;
         background-repeat: no-repeat;
         background-size: 60%;
         background-position: center;
-        
+        position: relative;
+      }
+      &:hover {
+        color: $red;
+        &::before {
+          background-color: $red;
+        }
       }
     }
     .about-nav-link {
@@ -109,7 +117,7 @@
       &::after {
         content:'';
         position: absolute;
-        background-color: $red;
+        background-color: $black;
         width: 180px;
         height: 180px;
         position: absolute;
@@ -117,6 +125,12 @@
         left: -20px;
         border-radius: 50%;
         top: -110px;
+        @include transition;
+      }
+      &:hover {
+        &:after {
+          background-color: $red;
+        }
       }
     }
   }

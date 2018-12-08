@@ -12,7 +12,7 @@
       "exterior": "Red",
       "interior": "White",
       "body": "Convertible",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "124679N13424",
       "photopath":"1969-chevy-camaro-rs-ss-rusty"
     },
@@ -28,7 +28,7 @@
       "exterior": "Red",
       "interior": "Black",
       "body": "Coupe",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "194677S120156",
       "photopath":"1967-chevy-corvette-427"
     },
@@ -44,7 +44,7 @@
       "exterior": "Tuxedo Black / White Stripes",
       "interior": "Black",
       "body": "Coupe",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "13637OA146737",
       "photopath":"1970-chevy-chevelle-black"
     },
@@ -60,7 +60,7 @@
       "exterior": "Red",
       "interior": "Black",
       "body": "none",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "114279W426619",
       "photopath":"1969-chevy-nova-ss-427"
     },
@@ -76,7 +76,7 @@
       "exterior": "Guards Red",
       "interior": "Tan",
       "body": "none",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "WPOJBO93XGS05101",
       "photopath":"1986-porsche-936-turbo"
     },
@@ -92,7 +92,7 @@
       "exterior": "Black",
       "interior": "Black",
       "body": "none",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "124379N585292",
       "photopath":"1969-chevy-camaro-pro-street"
     },
@@ -108,7 +108,7 @@
       "exterior": "Rally Red",
       "interior": "Black",
       "body": "Convertible",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "124679N13424",
       "photopath":"1967-chevy-corvette-pro-street"
     },
@@ -124,7 +124,7 @@
       "exterior": "Rosso Red",
       "interior": "Palomino",
       "body": "Hard Top Convertible",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "ZFF77XJA6G0213380",
       "photopath":"2016-ferrari-california"
     },
@@ -140,7 +140,7 @@
       "exterior": "Tor Red",
       "interior": "Black",
       "body": "beast",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "2C3CDZH93JH103312",
       "photopath":"2018-dodge-demon"
     },
@@ -156,7 +156,7 @@
       "exterior": "Torch Red",
       "interior": "Black",
       "body": "Convertible",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "1G1YZ22JXS5800376",
       "photopath":"1995-chevy-corvette-zr1"
     },
@@ -172,7 +172,7 @@
       "exterior": "Garnett Red",
       "interior": "Red",
       "body": "Convertible",
-      "read_end_gear": "none",
+      "rear_end_gear": "none",
       "vin": "124379N519916",
       "photopath":"1969-chevy-camaro-z28-red"
     }
