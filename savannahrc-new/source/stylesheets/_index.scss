@@ -31,6 +31,9 @@
 .collection-container {
   width: 100%;
   padding: 20px 15%;
+  @media (max-width: 1200px){
+    padding: 20px 5%;
+  }
 }
 h1 {
   font-family: 'longhaul';
@@ -40,6 +43,12 @@ h1 {
   display: block;
   text-align: center;
   letter-spacing: 4px;
+  @include laptop {
+    font-size: 60px;
+  }
+  @include mobile {
+    font-size: 36px;
+  }
 }
 .vehicle-list-container {
   padding-top: 20px;
@@ -56,6 +65,14 @@ h1 {
   transition: .2s all ease-in-out;
   overflow: hidden;
   border-radius: 8px;
+  @include laptop {
+    height: 180px;
+    overflow: visible
+  }
+  @include mobile {
+    height: auto;
+    padding-bottom: 60px;
+  }
   &:hover {
     text-decoration: none;
     transform: translateY(2px);
@@ -70,6 +87,14 @@ h1 {
   height: auto;
   position: absolute;
   z-index: 10;
+  @include laptop {
+    width: 300px;
+  }
+  @include mobile {
+    position: unset;
+    margin: 0 auto;
+    display: block;
+  }
 }
 .year-make-model-vlp {
   font-size: 42px;
@@ -80,6 +105,17 @@ h1 {
   margin-left: 50%;
   width: 45%;
   @include intro-l;
+  @include laptop {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  @include mobile {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
   span {
     @include transition;
     @include intro;
@@ -95,6 +131,11 @@ h1 {
   text-align: right;
   padding-right: 5%;
   display: block;
+  @include mobile {
+    padding-right: 0%;
+    margin: 0 auto;
+    text-align: center;
+  }
   .logo {
     height: 60px;
     width: 60px;
@@ -104,6 +145,12 @@ h1 {
     float: right;
     margin-top: 6px;
     margin-left: 6px;
+    @include mobile {
+      height: 30px;
+      width: 30px;
+      float: none;
+      display: inline-block;
+    }
   }
   .Dodge {
     background-image: image-url('site_assets/vehicle_logos/dodge.png')
@@ -112,6 +159,10 @@ h1 {
     background-image: image-url('site_assets/vehicle_logos/chevy.png');
     width: 100px;
     height: 60px;
+    @include mobile {
+      width: 50px;
+      height: 30px;
+    }
   }
   .Porsche {
     background-image: image-url('site_assets/vehicle_logos/porsche.png')
@@ -141,6 +192,10 @@ h1 {
     background-image: image-url('site_assets/vehicle_logos/nova.png');
     width: 100px;
     height: 60px;
+    @include mobile {
+      height: 30px;
+      width: 50px;
+    }
   }
 }
 .archive-cta {
@@ -152,6 +207,9 @@ h1 {
   padding: 20px;
   @include transition;
   text-transform: uppercase;
+  @include tablet {
+    font-size: 32px;
+  }
   &::after {
     content:'';
     display: inline-block;
@@ -166,6 +224,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
+    @include tablet {
+      width: 22px;
+      height: 22px;
+    }
   }
   &:hover {
     color: $red;
