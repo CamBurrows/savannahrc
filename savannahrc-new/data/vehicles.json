@@ -377,7 +377,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":"2006-ferrari-f430-spider"
+    "photopath":"2006-ferrari-f430-convertible"
     },
     {
       "current": false,
@@ -415,7 +415,7 @@
       "current": false,
       "year": 2010,
       "make": "Ridley",
-      "model": "Motorcycle",
+      "model": "Auto-Glide Classic",
       "engine": "V-Twin",
       "vin": "none",
       "exterior color": "Black",
@@ -425,7 +425,7 @@
       "misc": "Only auto trans big bike made",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2010-ridley-auto-glide-classic"
     },
     {
       "current": false,
@@ -441,7 +441,7 @@
       "misc": "600 HP.",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"1966-chevy-chevelle-ss"
     },
     {
       "current": false,
@@ -457,12 +457,12 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2011-porsche-911-speedster"
     },
     {
       "current": false,
       "year": 2006,
-      "make": "FErrari",
+      "make": "Ferrari",
       "model": "F430 Scuderia",
       "engine": "none",
       "vin": "none",
@@ -473,7 +473,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2006-ferrari-f430-scuderia"
     },
     {
       "current": false,
@@ -489,7 +489,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2012-porsche-werks-911"
     },
     {
       "current": false,
@@ -505,7 +505,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2006-ferrari-f430-spyder"
     },
     {
       "current": false,
@@ -521,7 +521,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2015-porsche-cayenne-turbo"
     },
     {
       "current": false,
@@ -537,7 +537,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2012-mercedes-e63"
     },
     {
       "current": false,
@@ -553,13 +553,13 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2011-ferrari-458-italia"
     },
     {
       "current": false,
       "year": 2014,
       "make": "Ferrari",
-      "model": "F458 Italia",
+      "model": "F458 Italia Speciale",
       "engine": "none",
       "vin": "none",
       "exterior color": "Rossa Corsa Red",
@@ -569,7 +569,7 @@
       "misc": "none",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"2014-ferrari-458-speciale"
     },
     {
       "current": false,
@@ -585,7 +585,7 @@
       "misc": "all #s matching",
       "body": "none",
       "description": "none",
-      "photopath":""
+      "photopath":"1969-chevy-restored-camaro-z28-rs-cross-ram"
     }
   ]
 }
