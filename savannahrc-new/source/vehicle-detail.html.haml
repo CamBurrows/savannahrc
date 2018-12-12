@@ -3,13 +3,16 @@
 .wrap
   .vdp-container
     .header
-      =image_tag("#{photopath}/cutout/cutout.png", class:'vehicle-list-cutout vdp-cutout')
+      -if current == "false";
+        =image_tag("#{photopath}/cutout/cutout.jpg", class:'vehicle-list-cutout vdp-cutout archive-lead')
+      -else
+        =image_tag("#{photopath}/cutout/cutout.png", class:'vehicle-list-cutout vdp-cutout')
       .year-make-model-vlp.vdp-car-title
         %span.collection-indicator
-          -if current = true;
-            Current Collection
-          -else
+          -if current == "false";
             Past Collection
+          -else
+            Current Collection
         %br
         #{year} #{make}
         %br
@@ -24,51 +27,57 @@
         %a{ href:"images/#{photopath}/photos/#{thumb.split('/').last}"}
           = image_tag("#{photopath}/thumbs/#{thumb.split('/').last}")
     .vdp-vehicle-info
-      -if current = true
+      -if current == "true"
         .left-col.vdp-info-left
           %h2.vdp-info-title
             Description
           %p
             =description
-        .right-col.vdp-info-right
-          %h2.vdp-info-title
-            Specs
-          -if engine != "none"
-            %h3.spec
-              Engine
-              %br
-              %span
-                = engine
-          -if transmission != "none"
-            %h3.spec
-              Transmission
-              %br
-              %span
-                = transmission
-          -if exterior != "none"
-            %h3.spec
-              Exterior Color
-              %br
-              %span
-                = exterior
-          -if interior != "none"
-            %h3.spec
-              Interior
-              %br
-              %span
-                = interior
-          -if body != "none"
-            %h3.spec
-              Body Style
-              %br
-              %span
-                = body
-          -if rear_end_gear != "none"
-            %h3.spec
-              Rear End Gear
-              %br
-              %span
-                = rear_end_gear
+      .right-col.vdp-info-right
+        %h2.vdp-info-title
+          Specs
+        -if engine != "none"
+          %h3.spec
+            Engine
+            %br
+            %span
+              = engine
+        -if transmission != "none"
+          %h3.spec
+            Transmission
+            %br
+            %span
+              = transmission
+        -if exterior != "none"
+          %h3.spec
+            Exterior Color
+            %br
+            %span
+              = exterior
+        -if interior != "none"
+          %h3.spec
+            Interior
+            %br
+            %span
+              = interior
+        -if body != "none"
+          %h3.spec
+            Body Style
+            %br
+            %span
+              = body
+        -if rear_end_gear != "none"
+          %h3.spec
+            Rear End Gear
+            %br
+            %span
+              = rear_end_gear
+        -if misc != "none"
+          %h3.spec
+            Misc
+            %br
+            %span
+              = misc
 
 :javascript
   lightGallery(document.getElementById('thumbnails'), {

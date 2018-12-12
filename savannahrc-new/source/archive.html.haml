@@ -5,7 +5,7 @@
       Past Vehicle Archive
     .vehicle-list-container
       - data.vehicles.vehicles.each do |vehicle|
-        -if vehicle.current = false
+        -if vehicle.current == "false"
           =link_to("/#{vehicle.photopath}", class:'vehicle-list-item', id:"#{vehicle.indexx}") do
             =image_tag("#{vehicle.photopath}/cutout/cutout.jpg", class:'vehicle-list-cutout')
             .year-make-model-vlp
