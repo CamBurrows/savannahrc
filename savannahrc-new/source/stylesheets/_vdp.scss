@@ -36,6 +36,8 @@
   padding-right: 5%;
 }
 #thumbnails {
+  max-height: 430px;
+  overflow: hidden;
   &::after {
     content: "";
     flex: auto;
@@ -77,15 +79,35 @@ h2.vdp-info-title {
   float: left;
   @include intro;
   font-size: 14px;
-
+  margin-bottom: 20px;
   span {
     @include intro-l;
     font-size: 24px;
   }
 }
 .vdp-info-right {
-  padding-left: 20px;
+  padding-left: 30px !important;
 }
 .vdp-info-left {
-  padding-right: 20px;
+  padding-right: 30px !important;
+}
+.extend-gallery-button {
+  @include intro;
+  font-size: 16px;
+  color: $white;
+  background-color: $black;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+  @include transition;
+  width: 200px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  &:hover {
+    background-color: $red;
+    cursor: pointer;
+  }
+}
+.open-gallery {
+  max-height: unset !important;
 }

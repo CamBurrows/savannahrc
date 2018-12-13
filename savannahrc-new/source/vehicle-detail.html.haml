@@ -1,3 +1,4 @@
+- @vehicle_name = "#{make} #{model}"
 -vehicle_photos = Dir.glob("source/images/#{photopath}/photos/*.jpg")
 -vehicle_thumbs = Dir.glob("source/images/#{photopath}/thumbs/*.jpg")
 .wrap
@@ -26,6 +27,9 @@
       -vehicle_thumbs.each do |thumb|
         %a{ href:"images/#{photopath}/photos/#{thumb.split('/').last}"}
           = image_tag("#{photopath}/thumbs/#{thumb.split('/').last}")
+    -if vehicle_thumbs.count > 36 
+      .extend-gallery-button
+        More Images
     .vdp-vehicle-info
       -if current == "true"
         .left-col.vdp-info-left
