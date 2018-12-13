@@ -31,7 +31,7 @@
       "body": "Coupe",
       "rear_end_gear": "3.55",
       "vin": "194677S120156",
-      "photopath":"1967-chevy-corvette-427",
+      "photopath":"1967-chevy-corvette-427-435",
       "misc":"none"
     },
     {
@@ -365,22 +365,6 @@
     },
     {
       "current": "false",
-      "year": 2006,
-      "make": "Ferrari",
-      "model": "F430 Convertible",
-      "engine": "none",
-      "vin": "none",
-      "exterior": "Rossa Corsa Red",
-      "interior": "Black Leather",
-      "transmission": "7 Speed Auto",
-      "rear_end_gear": "none",
-      "misc": "none",
-      "body": "none",
-      "description": "none",
-    "photopath":"2006-ferrari-f430-convertible"
-    },
-    {
-      "current": "false",
       "year": 1967,
       "make": "Chevrolet",
       "model": "Corvette",
@@ -503,7 +487,7 @@
       "transmission": "none",
       "rear_end_gear": "none",
       "misc": "none",
-      "body": "none",
+      "body": "Convertible",
       "description": "none",
       "photopath":"2006-ferrari-f430-spyder"
     },
@@ -554,6 +538,22 @@
       "body": "none",
       "description": "none",
       "photopath":"2011-ferrari-458-italia"
+    },
+    {
+      "current": "false",
+      "year": 2012,
+      "make": "Ferrari",
+      "model": "F458 Italia",
+      "engine": "none",
+      "vin": "none",
+      "exterior": "Rossa Corsa Red",
+      "interior": "black",
+      "transmission": "F-1 7 speed",
+      "rear_end_gear": "none",
+      "misc": "none",
+      "body": "Coupe",
+      "description": "none",
+      "photopath":"2012-ferrari-458-italia-2dr-coupe"
     },
     {
       "current": "false",
