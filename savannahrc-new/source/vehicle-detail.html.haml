@@ -25,7 +25,7 @@
         .logo{class:"#{model}"}
     .gallery-container#thumbnails
       -vehicle_thumbs.each do |thumb|
-        %a{ href:"images/#{photopath}/photos/#{thumb.split('/').last}"}
+        %a{ href:"/images/#{photopath}/photos/#{thumb.split('/').last}"}
           = image_tag("#{photopath}/thumbs/#{thumb.split('/').last}")
     -if vehicle_thumbs.count > 36 
       .extend-gallery-button
