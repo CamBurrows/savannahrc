@@ -27,7 +27,7 @@ set :images_dir, 'images'
 
 
 data.vehicles.vehicles.each do |vehicle|
-  proxy "/#{vehicle.photopath}","/vehicle-detail.html", :locals => {:year => vehicle.year, :make => vehicle.make, :model => vehicle.model, :current => vehicle.current, :description => vehicle.description, :engine => vehicle.engine, :transmission => vehicle.transmission, :exterior => vehicle.exterior, :interior => vehicle.interior, :body => vehicle.body, :rear_end_gear => vehicle.rear_end_gear, :vin => vehicle.vin, :photopath => vehicle.photopath, :misc => vehicle.misc, :vehicle => @vehicle}, :layout => "detail-page", :ignore => true
+  proxy "/vehicles/#{vehicle.photopath}/index.html","/vehicle-detail.html", :locals => {:year => vehicle.year, :make => vehicle.make, :model => vehicle.model, :current => vehicle.current, :description => vehicle.description, :engine => vehicle.engine, :transmission => vehicle.transmission, :exterior => vehicle.exterior, :interior => vehicle.interior, :body => vehicle.body, :rear_end_gear => vehicle.rear_end_gear, :vin => vehicle.vin, :photopath => vehicle.photopath, :misc => vehicle.misc, :vehicle => @vehicle}, :layout => "detail-page", :ignore => true
 end
 # Helpers
 # Methods defined in the helpers block are available in templates
