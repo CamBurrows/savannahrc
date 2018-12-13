@@ -168,7 +168,11 @@ h1 {
     background-image: image-url('site_assets/vehicle_logos/porsche.png')
   }
   .Ferrari {
-    background-image: image-url('site_assets/vehicle_logos/ferrari.png')
+    background-image: image-url('site_assets/vehicle_logos/ferrari.png');
+    width: 80px;
+    @include mobile {
+      width: 40px;
+    }
   }
   .SS {
     background-image: image-url('site_assets/vehicle_logos/ss.png')
@@ -196,6 +200,16 @@ h1 {
       height: 30px;
       width: 50px;
     }
+  }
+  .Mercedes {
+    background-image: image-url('site_assets/vehicle_logos/mercedes.png');
+    width: 100px;
+    @include mobile {
+      width: 50px;
+    }
+  }
+  .Lamborghini {
+    background-image: image-url('site_assets/vehicle_logos/lamborghini.png');
   }
 }
 .archive-cta {

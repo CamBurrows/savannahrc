@@ -3,9 +3,9 @@
 -vehicle_thumbs = Dir.glob("source/images/#{photopath}/thumbs/*.jpg")
 .wrap
   .vdp-container
-    .header
+    .header{class:"#{current}"}
       -if current == "false";
-        =image_tag("#{photopath}/cutout/cutout.jpg", class:'vehicle-list-cutout vdp-cutout archive-lead')
+        =image_tag("#{photopath}/cutout/cutout.jpg", class:'vehicle-list-cutout vdp-cutout')
       -else
         =image_tag("#{photopath}/cutout/cutout.png", class:'vehicle-list-cutout vdp-cutout')
       .year-make-model-vlp.vdp-car-title
@@ -19,7 +19,7 @@
         %br
         %span
           =model
-      .line
+      .line.vdp-line
       .logo-container.vdp-logos
         .logo{class:"#{make}"}
         .logo{class:"#{model}"}
