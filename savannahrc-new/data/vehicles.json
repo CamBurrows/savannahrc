@@ -188,6 +188,23 @@
       "misc":"none"
     },
     {
+      "indexx": 12,
+      "year": 1969,
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "current": "true",
+      "description": "",
+      "engine": "350-hp Turbo-Jet V8",
+      "transmission": "4-Speed Transmission",
+      "exterior": "Can-Am White",
+      "interior": "Red",
+      "body": "Two-door coupe",
+      "rear_end_gear": "3.36",
+      "vin": "194379S723096",
+      "photopath":"1969-chevy-corvette-white",
+      "misc":"none"
+    },
+    {
       "year": 2010,
       "make": "Mercedes",
       "model": "CL 65 AMG",
