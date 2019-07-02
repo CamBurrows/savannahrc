@@ -2,6 +2,23 @@
   "vehicles": [
     {
       "indexx": 1,
+      "year": 2016,
+      "make": "Ferrari",
+      "model": "F12 Berlinetta",
+      "current": "true",
+      "description": "none",
+      "engine": " V12 6.3 Liter - F140FC",
+      "transmission": "7 Speed Automatic",
+      "exterior": "Rosso Maranello",
+      "interior": "Red/Black",
+      "body": "Coupe",
+      "rear_end_gear": "none",
+      "vin": "none",
+      "photopath":"2016-ferrari-f12-berlinetta",
+      "misc":"none"
+    },
+    {
+      "indexx": 1,
       "year": 1969,
       "make": "Chevrolet",
       "model": "Camaro SS / RS 396",
@@ -121,19 +138,19 @@
     },
     {
       "indexx": 8,
-      "year": 2016,
-      "make": "Ferrari",
-      "model": "California T",
+      "year": 1970,
+      "make": "Chevrolet",
+      "model": "El Camino SS 454",
       "current": "true",
-      "description": "I traded a Porsche 911 4 S for this car in 2017. This is a very low mileage Ferrari which is in like new condition. This car is a twin turbo and a convertible with a hard top. It has a beautiful Palomino tan interior with the gorgeous Rossa Corsa red exterior clor. This car is a great Cruiser with plenty ponies at 580 horsepower. No personalized tag on this car.",
-      "engine": "8 cylinder Twin turbo",
-      "transmission": "7 Speed Auto F-1",
-      "exterior": "Rossa Corsa Red",
-      "interior": "Palomino",
-      "body": "Hard Top Convertible",
+      "description": "A 2 owner 8063 mile fully restored 1970 El Camino SS 454",
+      "engine": "LS-5 454",
+      "transmission": "Automatic",
+      "exterior": "Cortez Silver",
+      "interior": "none",
+      "body": "Vinyl Top Convertible",
       "rear_end_gear": "none",
-      "vin": "ZFF77XJA6G0213380",
-      "photopath":"2016-ferrari-california",
+      "vin": "none",
+      "photopath":"1970-chevy-el-camino",
       "misc":"none"
     },
     {
@@ -620,6 +637,22 @@
       "body": "none",
       "description": "none",
       "photopath":"1969-chevy-restored-camaro-z28-rs-cross-ram"
+    },
+    {
+      "year": 2016,
+      "make": "Ferrari",
+      "model": "California T",
+      "current": "false",
+      "description": "I traded a Porsche 911 4 S for this car in 2017. This is a very low mileage Ferrari which is in like new condition. This car is a twin turbo and a convertible with a hard top. It has a beautiful Palomino tan interior with the gorgeous Rossa Corsa red exterior clor. This car is a great Cruiser with plenty ponies at 580 horsepower. No personalized tag on this car.",
+      "engine": "8 cylinder Twin turbo",
+      "transmission": "7 Speed Auto F-1",
+      "exterior": "Rossa Corsa Red",
+      "interior": "Palomino",
+      "body": "Hard Top Convertible",
+      "rear_end_gear": "none",
+      "vin": "ZFF77XJA6G0213380",
+      "photopath":"2016-ferrari-california",
+      "misc":"none"
     }
   ]
 }
