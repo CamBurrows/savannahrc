@@ -159,7 +159,7 @@
       "make": "Dodge",
       "model": "Demon",
       "current": "true",
-      "description": "Vin# 3312 out of 3314 built . Dodge advertised 3300 cars built but they had to do a special run to settle infilled orders and lawsuits ( like mine ). My original order was placed with Auto Nation who double sold the car to another buyer and when the car came in the car had the other owners name on it ( he probably paid more over sticker than I did ). I had to sue Chrysler in order to get this car. I ordered it July 7,2017 and I did not get it until July 6,2018. An interesting fact about this car Vin# 3314 ( the last car built) was donated to the United Way and was sold at the Barrett Jackson auction in June 23,2018 for 1.1 million along with the last Viper. So this is second from the next to last Demon built. The Ga. tag I obtained for this car will read 1BADDMN. ",
+      "description": "Vin# 3312 out of 3314 built. Dodge advertised 3300 cars built but they had to do a special run to settle infilled orders and lawsuits ( like mine ). My original order was placed with Auto Nation who double sold the car to another buyer and when the car came in the car had the other owners name on it ( he probably paid more over sticker than I did ). I had to sue Chrysler in order to get this car. I ordered it July 7,2017 and I did not get it until July 6,2018. An interesting fact about this car Vin# 3314 ( the last car built) was donated to the United Way and was sold at the Barrett Jackson auction in June 23,2018 for 1.1 million along with the last Viper. So this is second from the next to last Demon built. The Ga. tag I obtained for this car will read 1BADDMN. ",
       "engine": "6.2 Liter Hemi",
       "transmission": "8 speed auto",
       "exterior": "Tor Red",
@@ -219,23 +219,6 @@
       "rear_end_gear": "3.36",
       "vin": "194379S723096",
       "photopath":"1969-chevy-corvette-white",
-      "misc":"none"
-    },
-    {
-      "indexx": 13,
-      "year": 1986,
-      "make": "Porsche",
-      "model": "911 Turbo Coupe",
-      "current": "true",
-      "description": "",
-      "engine": "M930/68",
-      "transmission": "G930/36",
-      "exterior": "Guards Red",
-      "interior": "Champagne/Black Leather",
-      "body": "Two-door coupe",
-      "rear_end_gear": "none",
-      "vin": "WP0JB093XGS051001",
-      "photopath":"1986-porsche-911-turbo",
       "misc":"none"
     },
     {
