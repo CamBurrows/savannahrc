@@ -19,6 +19,23 @@
     },
     {
       "indexx": 1,
+      "year": 1999,
+      "make": "Beachjet",
+      "model": "Hawker 400A",
+      "current": "true",
+      "description": "AVIONICS---Communication: Dual Collins VHF-422C, Navigation: Dual Collins VIR-432, Transponder: Dual Collins TDR-94D, DME: Dual Collins DME-442, ADF: Collins ADF-462, Radar: Collins TWR-850 Color, Flight Director: Dual Collins FCS-850, Auto Pilot: Collins FCC-4000, FMS: Dual Collins FMS-5000 w/GPS, RMI: Dual Collins, TCAS: Collins TCAS 94 TCAS-II w/change 7 Honeywell Mark V, Radar Altimeter: Collins ALT-55B, FDR: L3 Communications FA2100, CVR: Fairchild A100S, EFIS: 4 Tube,",
+      "engine": "Left - JT1 5D-5, Right - JT1 5D-5",
+      "transmission": "N/A",
+      "exterior": "Matterhorn White with Beep Blue & Clarette Stripes",
+      "interior": "Tan Leather",
+      "body": "8 Passenger Plane",
+      "rear_end_gear": "N/A",
+      "vin": "N/A",
+      "photopath":"1999-beachjet-400a",
+      "misc":"none"
+    },
+    {
+      "indexx": 1,
       "year": 1969,
       "make": "Chevrolet",
       "model": "Camaro SS / RS 396",
