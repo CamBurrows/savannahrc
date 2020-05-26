@@ -19,6 +19,23 @@
     },
     {
       "indexx": 1,
+      "year": 1992,
+      "make": "Ferrari",
+      "model": "512 TR",
+      "current": "true",
+      "description": "none",
+      "engine": "4.9 L Tipo F113 D flat-12",
+      "transmission": "5 Speed Manual",
+      "exterior": "Rosso Corsa",
+      "interior": "Tan Leather",
+      "body": "Coupe",
+      "rear_end_gear": "none",
+      "vin": "ZFFLG40A0N0091465",
+      "photopath":"1992-ferrari-testarossa",
+      "misc":"none"
+    },
+    {
+      "indexx": 1,
       "year": 1999,
       "make": "Beachjet",
       "model": "Hawker 400A",
