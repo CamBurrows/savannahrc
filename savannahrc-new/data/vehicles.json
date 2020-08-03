@@ -2,6 +2,23 @@
   "vehicles": [
     {
       "indexx": 1,
+      "year": 2017,
+      "make": "Porsche",
+      "model": "911 Turbo S",
+      "current": "true",
+      "description": "none",
+      "engine": "3.8L DOHC 24-valve flat-6",
+      "transmission": "7-speed dual-clutch automatic",
+      "exterior": "Guards Red",
+      "interior": "Black",
+      "body": "Coupe",
+      "rear_end_gear": "none",
+      "vin": "none",
+      "photopath":"2017-porsche-911-turbo-s",
+      "misc":"none"
+    },
+    {
+      "indexx": 1,
       "year": 2016,
       "make": "Ferrari",
       "model": "F12 Berlinetta",
@@ -37,7 +54,7 @@
     {
       "indexx": 1,
       "year": 1999,
-      "make": "Beachjet",
+      "make": "Beechjet",
       "model": "Hawker 400A",
       "current": "true",
       "description": "AVIONICS---Communication: Dual Collins VHF-422C, Navigation: Dual Collins VIR-432, Transponder: Dual Collins TDR-94D, DME: Dual Collins DME-442, ADF: Collins ADF-462, Radar: Collins TWR-850 Color, Flight Director: Dual Collins FCS-850, Auto Pilot: Collins FCC-4000, FMS: Dual Collins FMS-5000 w/GPS, RMI: Dual Collins, TCAS: Collins TCAS 94 TCAS-II w/change 7 Honeywell Mark V, Radar Altimeter: Collins ALT-55B, FDR: L3 Communications FA2100, CVR: Fairchild A100S, EFIS: 4 Tube,",
@@ -48,7 +65,7 @@
       "body": "8 Passenger Plane",
       "rear_end_gear": "N/A",
       "vin": "N/A",
-      "photopath":"1999-beachjet-400a",
+      "photopath":"1999-beechjet-400a",
       "misc":"none"
     },
     {
