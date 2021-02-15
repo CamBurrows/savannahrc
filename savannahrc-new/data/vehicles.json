@@ -2,6 +2,23 @@
   "vehicles": [
     {
       "indexx": 1,
+      "year": 2021,
+      "make": "Chevrolet",
+      "model": "Corvette",
+      "current": "true",
+      "description": "Photos coming soon!",
+      "engine": "6.2 L V8",
+      "transmission": "8-speed dual-clutch automatic",
+      "exterior": "Red",
+      "interior": "Black",
+      "body": "Coupe",
+      "rear_end_gear": "none",
+      "vin": "none",
+      "photopath":"2021-chevy-corvette",
+      "misc":"none"
+    },
+    {
+      "indexx": 1,
       "year": 2017,
       "make": "Porsche",
       "model": "911 Turbo S",
@@ -125,7 +142,7 @@
       "make": "Chevrolet",
       "model": "Nova SS / Yenko SC",
       "current": "true",
-      "description": "My brother found this car at a small dealer in South Florida. I have not been able to confirm that this is a true Yenko Nova which would make the value of this car estimated at $150 K. I have been able to determine that this car is a true SS 396 car ( the base car all Yenko’s were built on .) The car was built at Willow Run , Michigan plant and sold in Indiana. The motor is a true 1969 Corvette 427 L72 motor which is the motor Yenko used on all 39 69 Yenko Novas he built. Not all these Novas are accounted for so the possibility exists that this car is a real deal 69 Yenko Nova.  This car had the correct motor , American Racing Wheels, Lakewood traction bars and Sun tach and gauges. I did sell the American wheels ( I regret that now ) and replaced them with new wheels. This car could be my best find ever if it is proven to be one of the lost 69 Yenko Novas. The personalized tag on this car reads YENKOSC. The SC stands for “Super Car“. ",
+      "description": "My brother found this car at a small dealer in South Florida. I have not been able to confirm that this is a true Yenko Nova which would make the value of this car estimated at $150 K. I have been able to determine that this car is a true SS 396 car ( the base car all Yenko’s were built on.) The car was built at Willow Run , Michigan plant and sold in Indiana. The motor is a true 1969 Corvette 427 L72 motor which is the motor Yenko used on all 39 69 Yenko Novas he built. Not all these Novas are accounted for so the possibility exists that this car is a real deal 69 Yenko Nova.  This car had the correct motor , American Racing Wheels, Lakewood traction bars and Sun tach and gauges. I did sell the American wheels ( I regret that now ) and replaced them with new wheels. This car could be my best find ever if it is proven to be one of the lost 69 Yenko Novas. The personalized tag on this car reads YENKOSC. The SC stands for “Super Car“. ",
       "engine": "1969 Corvette 427 L72",
       "transmission": "M21 4 Speed",
       "exterior": "Red",
@@ -270,6 +287,23 @@
       "rear_end_gear": "3.73",
       "vin": "124379N519916",
       "photopath":"1969-chevy-camaro-z28-red",
+      "misc":"none"
+    },
+    {
+      "indexx": 12,
+      "year": 2015,
+      "make": "Dodge",
+      "model": "Hellcat",
+      "current": "false",
+      "description": "",
+      "engine": "6.2 L V8",
+      "transmission": "6-speed manual",
+      "exterior": "Black & Red",
+      "interior": "Black & Red",
+      "body": "Two-door coupe",
+      "rear_end_gear": "none",
+      "vin": "none",
+      "photopath":"2015-dodge-hellcat",
       "misc":"none"
     },
     {
